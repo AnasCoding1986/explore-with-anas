@@ -123,9 +123,9 @@
 
     /* ==============newsletter============== */
     .newsletter{
-        flex-direction: column;
-        gap: 20px;
-        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
     }
     .newsletter .newsletter-input{
         border-radius: 10px;
@@ -146,31 +146,29 @@
     }
     .newsletter .newsletter-image{
         width: 100%;
+        height: 100%;
         border-radius: 16px;
-        background: url('../Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
+        background: none;
+        /* position: relative; */
+    }
+    .newsletter .newsletter-image img{
+        display: block;
     }
     .newsletter .newsletter-image .newsletter-offer{
-        border-radius: 16px;
-        background: #FF5400;
-        width: 40%;
-        padding: 1.5rem;
-        position: absolute;
-        right: 0px;
-        bottom: 0px;
-        transform: rotate(0deg);
+        border-radius: 12px;
+        width: 70%;
+        padding: 1rem;
+        right: 5px;
+        bottom: 45px;
+        transform: rotate(-25deg);
+        text-align: center;
     }
     .newsletter .newsletter-image .newsletter-offer .newsletter-offer-p{
-        color: #FFF;
-        font-size: 24px;
-        font-weight: 400;
+        font-size: 14px;
     }
     .newsletter .newsletter-image .newsletter-offer .newsletter-offer-h5{
-        color: #FFF;
-        font-size: 32px;
-        font-weight: 800;
+        font-size: 20px;
+        font-weight: 600;
     }
     
 

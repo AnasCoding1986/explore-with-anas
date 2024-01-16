@@ -307,6 +307,10 @@ section{
     background-size: cover;
     position: relative;
 }
+.newsletter .newsletter-image img{
+    display: none;
+    width: 100%;
+}
 .newsletter .newsletter-image .newsletter-offer{
     border-radius: 16px;
     background: #FF5400;
