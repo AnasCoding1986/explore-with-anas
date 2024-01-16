@@ -333,4 +333,34 @@ section{
 }
 
 
+/* ==============footer css============== */
+.footer{
+    padding: 110px 0px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer .footer-logo{
+    width: 12%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-p{
+    max-width: 40%;
+    margin: 15px auto;
+}
+.footer .footer-social-icon{
+    width: 12%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .footer-social-icon i{
+    font-size: 20px;
+}
+.footer .section-description-last{
+    margin-top: 100px;
+}
+
 

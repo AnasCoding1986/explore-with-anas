@@ -170,7 +170,40 @@
         font-size: 20px;
         font-weight: 600;
     }
-    
+
+    /* ==============footer============== */
+    .footer{
+        padding: 1rem;
+    }
+    .footer .footer-logo{
+        width: 50%;
+        align-items: center;
+    }
+    #footer-logo-image{
+        width: 24px;
+    }
+    #footer-logo-image img{
+        width: 100%;
+    }
+    #footer-logo-title{
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+    #footer-p{
+        max-width: 90%;
+        margin: 15px auto;
+    }
+    .footer .footer-social-icon{
+        width: 50%;
+        margin: 15px auto;
+    }
+    .footer .footer-social-icon i{
+        font-size: 15px;
+    }
+    .footer .section-description-last{
+        margin-top: 30px;
+    }
 
 
 }
