@@ -17,7 +17,6 @@ section{
 :root{
     --dark-02: #424247;
     --primary: #FF5400;
-
 }
 .section-title{
     color: #131318;
@@ -336,8 +335,6 @@ section{
 .our-location{
     text-align: center;
 }
-.our-location h4{
-}
 .our-location p{
     max-width: 40%;
     margin: 1.5rem auto;
@@ -345,7 +342,6 @@ section{
 .our-location iframe{
     margin-top: 20px;
 }
-
 
 /* ==============footer css============== */
 .footer{
