@@ -30,6 +30,15 @@ section{
     font-weight: 400;
     line-height: 26px;
 }
+.btn{
+    color: #FFF;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: var(--primary);
+    border: none;
+}
 
 /* ==============Header css============== */
 .nav-bar{
@@ -94,14 +103,6 @@ section{
     top: 20px;
     display: none;
 }
-.btn{
-    color: #FFF;
-font-size: 16px;
-font-weight: 700;
-border-radius: 8px;
-background: var(--primary);
-border: none;
-}
 
 /* ==============Banner css============== */
 .banner{
@@ -158,6 +159,9 @@ border: none;
 }
 .our-popular-tours .our-popular-tours-description p{
     margin: 20px 0px;
+}
+.our-popular-tours .our-popular-tours-description button{
+    margin-top: 20px;
 }
 .our-popular-tours .our-popular-tours-description .our-popular-tours-types{
     padding-left: 20px;

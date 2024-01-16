@@ -1,4 +1,15 @@
 @media screen and (max-width: 600px){
+    /* ==============common============== */
+    section{
+        margin-top: 80px;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .section-description{
+        font-size: 12px;
+    }
+    
     /* ==============header============== */
     .nav-bar{
         flex-direction: column;
@@ -45,6 +56,36 @@
     .banner .banner-input button{
         width: 100%;
         height: 40px;
+    }
+
+/* ==============our popular tours============== */
+    .our-popular-tours{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .our-popular-tours .our-popular-tours-description{
+        width: 100%;
+    }
+    .our-popular-tours .our-popular-tours-description p{
+        margin: 10px 0px;
+    }
+    .our-popular-tours .our-popular-tours-description button{
+        margin-top: 20px;
+    }
+    .our-popular-tours .our-popular-tours-description .our-popular-tours-types{
+        padding-left: 20px;
+        margin: 10px 0px;
+    }
+    .our-popular-tours .our-popular-tours-description .our-popular-tours-types .section-description i{
+        font-size: 7px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .our-popular-tours .our-popular-tours-image{
+        width: 100%;
+    }
+    .our-popular-tours .our-popular-tours-image img{
+        width: 100%;
     }
 
 }
