@@ -221,9 +221,6 @@ section{
 }
 
 /* ==============Why chooose us css============== */
-.why-choose-us{
-    
-}
 .why-choose-us h4{
     text-align: center;
 }
@@ -251,12 +248,6 @@ section{
 }
 .why-choose-us .why-choose-us-items .why-choose-us-item-3{
     grid-column: 4/span 6;
-}
-.why-choose-us .why-choose-us-items .why-choose-us-item .why-choose-us-item-image{
-
-}
-.why-choose-us .why-choose-us-items .why-choose-us-item .why-choose-us-item-image img{
-
 }
 .why-choose-us .why-choose-us-items .why-choose-us-item .why-choose-us-item-title{
     color: #131318;
