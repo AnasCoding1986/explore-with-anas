@@ -181,47 +181,59 @@ section{
 
 /* ==============chose your destination============== */
 .choose-your-destination{
-    margin-bottom: 200px;
+    text-align: center;
 }
 .choose-your-destination h4{
 
 }
 .choose-your-destination p{
-
+    margin: 25px 50px;
 }
 .choose-your-destination .choose-your-destination-items{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, auto);
-    gap: 10px;
+    gap: 2rem;
+}
+.choose-your-destination .choose-your-destination-items .detination-common-class{
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+}
+.choose-your-destination .choose-your-destination-items .detination-common-class .choose-your-destination-item-title{
+    position: absolute;
+    left: 40%;
+    top: 49%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    /* width: 100%;
+    height: 100%; */
+}
+.choose-your-destination .choose-your-destination-items .detination-common-class img{
+    width: 100%;
+    height: 100%;
 }
 .choose-your-destination .choose-your-destination-items .choose-your-destination-item-1{
     grid-column: 1/span 6;
-    background-color: #ffcccc;
 }
 .choose-your-destination .choose-your-destination-items .choose-your-destination-item-2{
-    grid-column: 7/ span 12;
-    background-color: #ccffcc;
+    grid-column: 7/ span 6;
 }
 .choose-your-destination .choose-your-destination-items .choose-your-destination-item-3{
     grid-column: 1/ span 4;
-    background-color: #ccccff;
 }
 .choose-your-destination .choose-your-destination-items .choose-your-destination-item-4{
     grid-column: 5/ span 6;
-    background-color: #55550e;
 }
 .choose-your-destination .choose-your-destination-items .choose-your-destination-item-5{
     grid-column: 11/ span 2;
-    background-color: #370837;
 }
 .choose-your-destination .choose-your-destination-items .choose-your-destination-item-6{
     grid-column: 1/ span 5;
-    background-color: #043b3b; 
 }
 .choose-your-destination .choose-your-destination-items .choose-your-destination-item-7{
-    grid-column: 6/ span 12;
-    background-color: #b40909;
+    grid-column: 6/ span 7;
 }
 
 
