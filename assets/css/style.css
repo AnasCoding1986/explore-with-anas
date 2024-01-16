@@ -86,12 +86,14 @@ section{
     right: 20px;
     top: 20px;
     display: none;
+    cursor: pointer;
 }
 .header .hamberger .hamberger-close{
     position: absolute;
     right: 20px;
     top: 20px;
     display: none;
+    cursor: pointer;
 }
 
 /* ==============Banner css============== */

@@ -11,9 +11,7 @@
     }
     
     /* ==============header============== */
-
-    /* ------without hamberger start------ */
-    /* .nav-bar{
+    .nav-bar{
         flex-direction: column;
     }
     .nav-bar .nav-logo .nav-logo-image{
@@ -29,66 +27,8 @@
     }
     .nav-bar .nav-menu ul li{
         margin: 15px;
-    } */
-    /* ------without hamberger end------ */
-
-
-
-
-    /* ------with hamberger start------ */
-    .nav-bar{
-        margin-top: 40px;
     }
-    .nav-bar .nav-logo{
-    }
-    .nav-bar .nav-logo .nav-logo-title{
-        color: #131318;
-        font-size: 20px;
-        font-weight: 600;
-        margin-left: 10px;
-    }
-    .nav-bar .nav-menu {
-        position: absolute;
-        background: var(--primary);
-        width: 200px;
-        height: 100vh;
-        right: -300px;
-        top: -200px;
-        z-index: 2;
-    }
-    .nav-bar .nav-menu ul{
-        flex-direction: column;
-    }
-    .nav-bar .nav-menu ul li{
-        margin: 50px 30px 0px 0px;
-    }
-    .nav-bar .nav-menu ul li a{
-        font-size: 12px;
-        color: #fff;
-    }
-    .header{
-        position: relative;
-    }
-    .header .hamberger .hamberger-menu{
-        position: absolute;
-        right: 20px;
-        top: 20px;
-        display: block;
-    }
-    .header .hamberger .hamberger-close{
-        position: absolute;
-        right: 20px;
-        top: 20px;
-        display: none;
-    }
-    .header .hamberger .hamberger-menu:checked ~ .nav-bar .nav-menu{
-        right: -40px;
-        top: -40px;
-    }
-    /* ------with hamberger end------ */
-
-
-
+    
 
     /* ==============banner============== */
     .banner{
