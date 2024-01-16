@@ -179,4 +179,49 @@ section{
     width: 100%;
 }
 
+/* ==============chose your destination============== */
+.choose-your-destination{
+    margin-bottom: 200px;
+}
+.choose-your-destination h4{
+
+}
+.choose-your-destination p{
+
+}
+.choose-your-destination .choose-your-destination-items{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+.choose-your-destination .choose-your-destination-items .choose-your-destination-item-1{
+    grid-column: 1/span 6;
+    background-color: #ffcccc;
+}
+.choose-your-destination .choose-your-destination-items .choose-your-destination-item-2{
+    grid-column: 7/ span 12;
+    background-color: #ccffcc;
+}
+.choose-your-destination .choose-your-destination-items .choose-your-destination-item-3{
+    grid-column: 1/ span 4;
+    background-color: #ccccff;
+}
+.choose-your-destination .choose-your-destination-items .choose-your-destination-item-4{
+    grid-column: 5/ span 6;
+    background-color: #55550e;
+}
+.choose-your-destination .choose-your-destination-items .choose-your-destination-item-5{
+    grid-column: 11/ span 2;
+    background-color: #370837;
+}
+.choose-your-destination .choose-your-destination-items .choose-your-destination-item-6{
+    grid-column: 1/ span 5;
+    background-color: #043b3b; 
+}
+.choose-your-destination .choose-your-destination-items .choose-your-destination-item-7{
+    grid-column: 6/ span 12;
+    background-color: #b40909;
+}
+
 
