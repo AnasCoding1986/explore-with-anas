@@ -118,8 +118,61 @@
     }
     .why-choose-us .why-choose-us-items .why-choose-us-item .why-choose-us-item-description{
         font-size: 13px;
-        max-width: 90%;
+        max-width: 100%;
     }
+
+    /* ==============newsletter============== */
+    .newsletter{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 100px;
+    }
+    .newsletter .newsletter-input{
+        border-radius: 10px;
+        padding: 1rem;
+        width: 100%;
+    }
+    .newsletter .newsletter-input input{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 10px;
+        padding: 0.8rem 1.5rem;
+    }
+    .newsletter .newsletter-input button{
+        margin: 10px 0px;
+        width: 100%;
+        height: 40px;
+        border: none;
+    }
+    .newsletter .newsletter-image{
+        width: 100%;
+        border-radius: 16px;
+        background: url('../Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .newsletter .newsletter-image .newsletter-offer{
+        border-radius: 16px;
+        background: #FF5400;
+        width: 40%;
+        padding: 1.5rem;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        transform: rotate(0deg);
+    }
+    .newsletter .newsletter-image .newsletter-offer .newsletter-offer-p{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .newsletter .newsletter-image .newsletter-offer .newsletter-offer-h5{
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 800;
+    }
+    
 
 
 }
