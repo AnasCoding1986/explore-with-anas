@@ -1,0 +1,135 @@
+/* ==============common css============== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+section{
+    margin-top: 100px;
+}
+.container{
+    width: 81%;
+    margin: 0 auto;
+}
+:root{
+    --dark-02: #424247;
+    --primary: #FF5400;
+
+}
+
+/* ==============Header css============== */
+.nav-bar{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar .nav-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-bar .nav-logo .nav-logo-image{
+
+}
+.nav-bar .nav-logo .nav-logo-image img{
+    width: 100%;
+}
+.nav-bar .nav-logo .nav-logo-title{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 16px;
+}
+.nav-bar .nav-logo .nav-logo-title span{
+    color: var(--primary);
+}
+.nav-bar .nav-menu{
+
+}
+.nav-bar .nav-menu ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-bar .nav-menu ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+.nav-bar .nav-menu ul li a{
+    text-decoration: none;
+    color: var(--dark-02);
+    font-size: 18px;
+    font-weight: 400;
+}
+.header{
+    position: relative;
+}
+.header .hamberger{
+    
+}
+.header .hamberger .hamberger-menu{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: none;
+}
+.header .hamberger .hamberger-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: none;
+}
+.btn{
+    color: #FFF;
+font-size: 16px;
+font-weight: 700;
+border-radius: 8px;
+background: var(--primary);
+border: none;
+}
+
+/* ==============Banner css============== */
+.banner{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 16px;
+    padding: 100px 180px;
+    text-align: center;
+}
+.banner .banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner .banner-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0px 50px 0;
+}
+.banner .banner-input{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+}
+.banner .banner-input input{
+    width: 24%;
+    height: 50px;
+}
+.banner .banner-input button{
+    width: 24%;
+    height: 50px;
+}
+
+
