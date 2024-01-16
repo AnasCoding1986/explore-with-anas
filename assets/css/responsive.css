@@ -28,7 +28,6 @@
     .nav-bar .nav-menu ul li{
         margin: 15px;
     }
-    
 
     /* ==============banner============== */
     .banner{
@@ -121,6 +120,29 @@
         max-width: 100%;
     }
 
+    /* ==============newsletter css============== */
+     .simple-place{
+         flex-direction: column;
+         gap: 20px;
+     }
+     .simple-place .simple-place-description{
+         width: 90%;
+         padding: .5rem;
+     }
+     .simple-place .simple-place-description p{
+        margin: 15px 0px;
+     }
+     .simple-place .simple-place-description ul{
+         margin-left: 20px;
+         margin-bottom: 20px;
+     }
+     .simple-place .simple-place-description ul li{
+         margin-bottom: 10px;
+     }
+     .simple-place .simple-place-video{
+         width: 90%;
+     }
+
     /* ==============newsletter============== */
     .newsletter{
         display: grid;
@@ -173,8 +195,6 @@
     /* ==============our location bonus section============== */
     .our-location{
         text-align: center;
-    }
-    .our-location h4{
     }
     .our-location p{
         max-width: 90%;
