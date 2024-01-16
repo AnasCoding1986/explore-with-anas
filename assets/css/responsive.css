@@ -171,6 +171,22 @@
         font-weight: 600;
     }
 
+    /* ==============our location bonus section============== */
+    .our-location{
+        text-align: center;
+    }
+    .our-location h4{
+    }
+    .our-location p{
+        max-width: 90%;
+        margin: 1rem auto;
+    }
+    .our-location iframe{
+        height: 200px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
     /* ==============footer============== */
     .footer{
         padding: 1rem;
