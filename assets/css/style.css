@@ -52,9 +52,6 @@ section{
     justify-content: flex-start;
     align-items: center;
 }
-.nav-bar .nav-logo .nav-logo-image{
-
-}
 .nav-bar .nav-logo .nav-logo-image img{
     width: 100%;
 }
@@ -66,9 +63,6 @@ section{
 }
 .nav-bar .nav-logo .nav-logo-title span{
     color: var(--primary);
-}
-.nav-bar .nav-menu{
-
 }
 .nav-bar .nav-menu ul{
     display: flex;
@@ -87,9 +81,6 @@ section{
 }
 .header{
     position: relative;
-}
-.header .hamberger{
-    
 }
 .header .hamberger .hamberger-menu{
     position: absolute;
@@ -154,9 +145,6 @@ section{
 .our-popular-tours .our-popular-tours-description{
     width: 49%;
 }
-.our-popular-tours .our-popular-tours-description h4{
-
-}
 .our-popular-tours .our-popular-tours-description p{
     margin: 20px 0px;
 }
@@ -183,22 +171,19 @@ section{
 .choose-your-destination{
     text-align: center;
 }
-.choose-your-destination h4{
-
-}
 .choose-your-destination p{
     margin: 25px 50px;
 }
 .choose-your-destination .choose-your-destination-items{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
 }
 .choose-your-destination .choose-your-destination-items .detination-common-class{
     position: relative;
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
 }
 .choose-your-destination .choose-your-destination-items .detination-common-class .choose-your-destination-item-title{
     position: absolute;
@@ -208,8 +193,6 @@ section{
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
-    /* width: 100%;
-    height: 100%; */
 }
 .choose-your-destination .choose-your-destination-items .detination-common-class img{
     width: 100%;
@@ -235,6 +218,58 @@ section{
 }
 .choose-your-destination .choose-your-destination-items .choose-your-destination-item-7{
     grid-column: 6/ span 7;
+}
+
+/* ==============Why chooose us css============== */
+.why-choose-us{
+    
+}
+.why-choose-us h4{
+    text-align: center;
+}
+.why-choose-us > p{
+    text-align: center;
+    margin: 25px 0px 50px 0px;
+}
+.why-choose-us .why-choose-us-items{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+}
+.why-choose-us .why-choose-us-items .why-choose-us-item{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 1rem;
+}
+.why-choose-us .why-choose-us-items .why-choose-us-item-1{
+    grid-column: 1/span 6;
+}
+.why-choose-us .why-choose-us-items .why-choose-us-item-2{
+    grid-column: 7/span 6;
+}
+.why-choose-us .why-choose-us-items .why-choose-us-item-3{
+    grid-column: 4/span 6;
+}
+.why-choose-us .why-choose-us-items .why-choose-us-item .why-choose-us-item-image{
+
+}
+.why-choose-us .why-choose-us-items .why-choose-us-item .why-choose-us-item-image img{
+
+}
+.why-choose-us .why-choose-us-items .why-choose-us-item .why-choose-us-item-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.why-choose-us .why-choose-us-items .why-choose-us-item .why-choose-us-item-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 70%;
 }
 
 
