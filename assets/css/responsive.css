@@ -11,11 +11,7 @@
     }
     
     /* ==============header============== */
-
-
-
-    /* --------without hamberger-------- */
-    /* .nav-bar{
+    .nav-bar{
         flex-direction: column;
     }
     .nav-bar .nav-logo .nav-logo-image{
@@ -31,87 +27,7 @@
     }
     .nav-bar .nav-menu ul li{
         margin: 15px;
-    } */
-    /* --------without hamberger end-------- */
-
-
-
-
-
-
-    /* --------with hamberger start-------- */
-    .nav-bar{
-        margin-top: 50px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
     }
-    .nav-bar .nav-logo{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .nav-bar .nav-logo .nav-logo-image img{
-        width: 100%;
-    }
-    .nav-bar .nav-logo .nav-logo-title{
-        color: #131318;
-        font-size: 36px;
-        font-weight: 800;
-        margin-left: 16px;
-    }
-    .nav-bar .nav-logo .nav-logo-title span{
-        color: var(--primary);
-    }
-    .nav-menu{
-        width: 200px;
-        height: 100vh;
-        background: var(--primary);
-        position: absolute;
-        right: -240px;
-        top: -50px;
-    }
-    .nav-bar .nav-menu ul{
-        flex-direction: column;
-    }
-    .nav-bar .nav-menu ul li{
-        margin: 50px 50px 0px 0px;
-    }
-    .nav-bar .nav-menu ul li a{
-        text-decoration: none;
-        color: #fff;
-        font-size: 18px;
-        font-weight: 400;
-        transition: all .3s ease;
-    }
-    .nav-bar .nav-menu ul li a:hover{
-        color: var(--primary);
-    }
-    .header{
-        position: relative;
-    }
-    .header .hamberger .hamberger-menu{
-        position: absolute;
-        right: 10px;
-        top: 20px;
-        display: block;
-        cursor: pointer;
-    }
-    .header .hamberger .hamberger-close{
-        position: absolute;
-        right: 20px;
-        top: 20px;
-        display: none;
-        cursor: pointer;
-    }
-
-
-
-    /* --------with hamberger end-------- */
-
-
-
 
     /* ==============banner============== */
     .banner{
