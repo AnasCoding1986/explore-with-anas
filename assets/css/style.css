@@ -276,7 +276,93 @@ section{
     max-width: 80%;
 }
 
-/* ==============newsletter css============== */
+/* ==============deals-discount css============== */
+.deals-discount > h4{
+    text-align: center;
+}
+.deals-discount > p{
+    text-align: center;
+    margin: 25px 0px 50px 0px;
+}
+.deals-discount .deals-discount-common{
+    padding: 60px;
+    border-radius: 16px;
+    display: flex;
+    margin-bottom: 25px;
+}
+.deals-discount .deals-discount-item1{
+    background: url("../Images/Group\ 39.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+}
+.deals-discount .deals-discount-item2{
+    background: url("../Images/Group\ 40.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+}
+.deals-discount .deals-discount-item3{
+    background: url("../Images/Group\ 39.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+}
+.deals-discount .deals-discount-common .deals-discount-item-container{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    width: 45%;
+}
+.deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-dabba-timing{
+    display: flex;
+    justify-content: flex-start;
+}
+.deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-dabba-timing .deals-discount-dabba-timing-item{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-dabba-timing .deals-discount-dabba-timing-item i{
+    font-size: 20px;
+    color: #FF5400;
+}
+.deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-dabba-timing .deals-discount-dabba-timing-item p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-item-container-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px 0px 20px 0px;
+}
+.deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-item-container-p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 15px 0px;
+    width: 90%;
+}
+.deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-item-container-p-price{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.deals-discount .deals-discount-common ..deals-discount-item-container button{
+    margin-bottom: 20px;
+}
+.deals-discount .deals-discount-btn{
+    margin: 40px auto 100px auto;
+    display: block;
+}
+
+/* ==============simple-place css============== */
 .simple-place{
     display: flex;
     justify-content: space-between;

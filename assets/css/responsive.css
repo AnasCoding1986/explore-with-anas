@@ -120,6 +120,55 @@
         max-width: 100%;
     }
 
+    /* ==============deals discount css============== */
+    .deals-discount .deals-discount-common{
+        padding: 200px 10px 10px 10px;
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+    .deals-discount .deals-discount-common .deals-discount-item-container{
+        padding: 20px;
+        width: 90%;       
+    }
+    .deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-dabba-timing{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-dabba-timing .deals-discount-dabba-timing-item{
+        margin-right: 15px;
+        margin: 0px 20px 20px 0px;
+    }
+    .deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-dabba-timing .deals-discount-dabba-timing-item i{
+        font-size: 12px;
+    }
+    .deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-dabba-timing .deals-discount-dabba-timing-item p{
+        font-size: 12px;
+    }
+    .deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-item-container-title{
+        font-size: 16px;
+        font-weight: 700;
+        margin: 10px 0px 15px 0px;
+    }
+    .deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-item-container-p{
+        font-size: 13px;
+        margin: 10px 0px;
+        width: 90%;
+    }
+    .deals-discount .deals-discount-common .deals-discount-item-container .deals-discount-item-container-p-price{
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .deals-discount .deals-discount-common ..deals-discount-item-container button{
+        margin-bottom: 20px;
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+    .deals-discount .deals-discount-btn{
+        margin: 40px auto 100px auto;
+        display: block;
+    }
+
     /* ==============newsletter css============== */
      .simple-place{
          flex-direction: column;
